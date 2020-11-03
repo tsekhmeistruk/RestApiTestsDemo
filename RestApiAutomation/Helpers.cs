@@ -43,7 +43,7 @@ namespace RestApiAutomation
 
         public static ResponseModel CreateResponseModel<T>(T respondeData, HttpStatusCode httpStatusCode)
         {
-            return new ResponseModel() { HttpStatusCode = httpStatusCode, ResponseData = (T)respondeData };
+            return new ResponseModel() { HttpStatusCode = httpStatusCode, Results = (T)respondeData };
         }
 
         public static ResponseModel CreateResponseModel(HttpStatusCode httpStatusCode)
