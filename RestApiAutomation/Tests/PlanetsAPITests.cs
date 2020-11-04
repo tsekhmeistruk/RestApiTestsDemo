@@ -15,7 +15,15 @@ namespace RestApiAutomation.Tests
         public void TestGetPlanetsPositive()
         {
             HttpStatusCode expectedCode = HttpStatusCode.OK;
-            var response = Rest.Get<Planets>();
+            var response = RestAdapter.Get<Planets>();
+            Assert.AreEqual(expected: expectedCode, actual: response.HttpStatusCode);
+        }
+
+        [Test]
+        public void TestGetPlanetPositive()
+        {
+            HttpStatusCode expectedCode = HttpStatusCode.OK;
+            var response = RestAdapter.Get<Planets>();
             Assert.AreEqual(expected: expectedCode, actual: response.HttpStatusCode);
         }
     }

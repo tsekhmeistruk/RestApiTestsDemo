@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Network\RestControllerAdapter.cs" />
     <Compile Include="ParseHelpers\Helpers.cs" />
     <Compile Include="Models\ResponseDataModel.cs" />
     <Compile Include="ParseHelpers\Converter.cs" />
