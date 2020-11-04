@@ -24,15 +24,13 @@ namespace RestApiAutomation.Models
         public string HairColor { get; set; }
 
         [JsonProperty("height")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Height { get; set; }
+        public string Height { get; set; }
 
         [JsonProperty("homeworld")]
         public Uri Homeworld { get; set; }
 
         [JsonProperty("mass")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Mass { get; set; }
+        public string Mass { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }

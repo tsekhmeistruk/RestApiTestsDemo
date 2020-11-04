@@ -14,7 +14,7 @@ namespace RestApiAutomation.Network
         {
             Stopwatch sw = Stopwatch.StartNew();
             var response = _restController.Get<T>();
-            Console.Out.WriteLine("Elapsed Time: " + sw.Elapsed);
+            Console.WriteLine("Elapsed Time: " + sw.Elapsed);
             return response;
         }
 
@@ -22,7 +22,7 @@ namespace RestApiAutomation.Network
         {
             Stopwatch sw = Stopwatch.StartNew();
             var response = _restController.Get<T>(id);
-            Console.Out.WriteLine("Elapsed Time: " + sw.Elapsed);
+            Console.WriteLine("Elapsed Time: " + sw.Elapsed);
             return response;
         }
     }

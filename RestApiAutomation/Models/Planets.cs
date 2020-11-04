@@ -15,8 +15,7 @@ namespace RestApiAutomation.Models
         public DateTimeOffset Created { get; set; }
 
         [JsonProperty("diameter")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Diameter { get; set; }
+        public string Diameter { get; set; }
 
         [JsonProperty("edited")]
         public DateTimeOffset Edited { get; set; }
