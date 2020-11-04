@@ -1,9 +1,0 @@
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\obj\Debug\RestApiAutomation.csprojResolveAssemblyReference.cache
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\bin\Debug\RestApiAutomation.dll
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\bin\Debug\RestApiAutomation.pdb
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\bin\Debug\Newtonsoft.Json.dll
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\bin\Debug\nunit.framework.dll
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\bin\Debug\Newtonsoft.Json.xml
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\bin\Debug\nunit.framework.xml
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\obj\Debug\RestApiAutomation.dll
-c:\users\user\documents\visual studio 2015\Projects\RestApiAutomation\RestApiAutomation\obj\Debug\RestApiAutomation.pdb
