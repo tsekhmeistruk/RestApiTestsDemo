@@ -18,5 +18,13 @@ namespace RestApiAutomation.Tests
             var response = Rest.Get<People>();
             Assert.AreEqual(expected: expectedCode, actual: response.HttpStatusCode);
         }
+
+        [Test]
+        public void TestGetPersonPositive()
+        {
+            HttpStatusCode expectedCode = HttpStatusCode.OK;
+            var response = Rest.Get<People>(3);
+            Assert.AreEqual(expected: expectedCode, actual: response.HttpStatusCode);
+        }
     }
 }
