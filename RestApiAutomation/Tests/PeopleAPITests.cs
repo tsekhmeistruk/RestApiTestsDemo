@@ -34,7 +34,7 @@ namespace RestApiAutomation.Tests
         public void TestGetPersonNegative()
         {
             var count = ((ResponseDataModel<People>)RestAdapter.Get<People>().Results).Count;
-            Assert.Throws<System.Net.WebException>(()=> RestAdapter.Get<People>(Convert.ToInt32(count + 2)));
+            Assert.Throws<WebException>(()=> RestAdapter.Get<People>(Convert.ToInt32(count + 2)));
         }
     }
 }
