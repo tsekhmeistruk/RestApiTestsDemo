@@ -101,11 +101,5 @@ namespace RestApiAutomation
                                                          headers: headers);
             return Helpers.CreateResponseModel(response.StatusCode);
         }
-
-        private void InitializeToken()
-        {
-            var resonse = networkController.HttpRequest(@"http://some-test-endpoint.com/getToken", HttpMethod.GET);
-            Token = resonse.Headers.Get("Authorization"); 
-        }
     }
 }

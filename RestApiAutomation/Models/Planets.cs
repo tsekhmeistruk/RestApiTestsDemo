@@ -25,8 +25,7 @@ namespace RestApiAutomation.Models
         public Uri[] Films { get; set; }
 
         [JsonProperty("gravity")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Gravity { get; set; }
+        public string Gravity { get; set; }
 
         [JsonProperty("name")]
         public string Name { get; set; }
@@ -36,8 +35,7 @@ namespace RestApiAutomation.Models
         public long OrbitalPeriod { get; set; }
 
         [JsonProperty("population")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long Population { get; set; }
+        public string Population { get; set; }
 
         [JsonProperty("residents")]
         public Uri[] Residents { get; set; }
@@ -47,8 +45,7 @@ namespace RestApiAutomation.Models
         public long RotationPeriod { get; set; }
 
         [JsonProperty("surface_water")]
-        [JsonConverter(typeof(ParseStringConverter))]
-        public long SurfaceWater { get; set; }
+        public string SurfaceWater { get; set; }
 
         [JsonProperty("terrain")]
         public string Terrain { get; set; }

@@ -23,18 +23,5 @@ namespace RestApiAutomation.ParseHelpers
             }
             return value;
         }
-
-        public string[] GetJsonArrayByKey(string key)
-        {
-            string[] values;
-            using (StreamReader r = new StreamReader(_configFilePath))
-            {
-                string json = r.ReadToEnd();
-                JObject data = (JObject)JsonConvert.DeserializeObject(json);
-                JArray array = (JArray)data[key];
-                values = array.ToObject<string[]>();
-            }
-            return values;
-        }
     }
 }
